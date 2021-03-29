@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <title>Roaming</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Roaming">
+        <meta name="author" content="Abraam Emad">
+        <link rel="shortcut icon" href="../images/Orange.png" />
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- The styles -->
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+        <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" >
+		<link rel="stylesheet" href="../css/base.css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div class="container">
+					<p>Welcome to Admin Dashboard.</p>
+				</div>
+			</div>
+			<div id="navbar">
+				<div class="container">
+					<div class="left-container">
+						<img src="../images/Orange.png"/>
+					</div>
+					<div class="right-container">
+						<p class="header"><a class="link" href="zones.html">Zones</a> / Add Zone</P>
+					</div>
+				</div>
+			</div>
+			<div id="content">
+				<div class="container">
+					<div class="left-container">
+						<div class="vertical-menu">
+						  <a href="zones.html">Zones</a>
+						  <a href="countries.html">Countries</a>
+						  <a href="packages.html">Packages</a>
+						  <a href="scripts.html">Scripts</a>
+						  <a href="logout.html">Logout</a>
+						</div>
+					</div>
+					<div class="right-container">
+						<div class="well">
+							<div class="form-container">
+								<form action="addZone.html" method="POST" accept-charset="utf-8">
+									<div class="form-group">
+										<label for="exampleSelect1">Zone #</label>
+										<select class="form-control">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+											<option>6</option>
+											<option>7</option>
+											<option>8</option>
+											<option>9</option>
+											<option>10</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label for="exampleInputText">local min</label>
+										<input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Enter local min">
+									</div>
+									<div class="form-group">
+										<label for="exampleInputText">back home min</label>
+										<input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Enter back home min">
+									</div>
+									<div class="form-group">
+										<label for="exampleInputText">International min</label>
+										<input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Enter International min">
+									</div>
+									<div class="form-group">
+										<label for="exampleInputText">receiving min</label>
+										<input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Enter receiving min">
+									</div>
+									<div class="form-group">
+										<label for="exampleInputText">Sms</label>
+										<input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Enter Sms">
+									</div>
+									<div class="form-group">
+										<label for="exampleInputText">Data MB</label>
+										<input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Enter Data MB">
+									</div>
+									<div class="form-group">
+										<label for="exampleInputText">video call min</label>
+										<input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Enter video call min">
+									</div>
+									<div class="form-group">
+										<label for="exampleInputText">video call receiving min</label>
+										<input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Enter video call receiving min">
+									</div>
+									<button type="submit" class="btn btn-secondary btn-lg btn-block">ADD</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div class="container footerCR">
+					<p>Abraam Emad &copy; 2019</p>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
